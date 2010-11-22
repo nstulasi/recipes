@@ -7,7 +7,7 @@ def register
       if @user.save
         @user.login!(session)
         flash[:notice] = "User with login #{@user.screen_name} created!"
-        redirect_to :action => :index
+        redirect_to :controller => :user, :action => :index
       end
     end
   end
