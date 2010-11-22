@@ -1,0 +1,62 @@
+body 
+{
+    font: normal small Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12pt;
+  background: #fffdda;;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#page
+{
+  width: 900px;
+  text-align: left;
+  border: solid maroon 1px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#header 
+{
+  height: 110px;
+  background: url("http://farm5.static.flickr.com/4130/5194373718_41c9bca503_m.jpg") 
+        maroon no-repeat 16px 16px;
+  color: White;
+  font-size: 64pt;
+  font-weight: 900;
+  padding: 16px 16px 16px 120px;
+  text-align:center;
+}
+#content 
+{
+  background: white;
+  padding: 1em;
+}
+
+#nav
+{
+  background: #ececec;
+  border-bottom: solid maroon 1px;
+  padding: 0.5em;
+  font-weight: bold;
+}
+#nav a
+{
+  color: Maroon;
+  text-decoration:none;
+}
+
+label
+{
+  width: 150px;
+  text-align: right;
+  float: left;
+  margin-top: 4px;
+}
+
+.fieldWithErrors
+{
+  display: inline;
+  border: solid 2px maroon;
+  background-color: red;
+}
+

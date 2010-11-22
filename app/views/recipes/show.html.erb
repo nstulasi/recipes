@@ -1,0 +1,21 @@
+
+
+<p>
+  <b>Name:</b>
+  <%= @recipe.name %>
+</p>
+
+<p>
+  <b>Ingredients:</b>
+  <%= @recipe.ingredients %>
+</p>
+
+<p>
+  <b>Directions:</b>
+  <%= @recipe.directions %>
+</p>
+
+ 
+
+<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+<%= link_to 'Back', recipes_path %>
